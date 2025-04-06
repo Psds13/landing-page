@@ -1,13 +1,16 @@
+import Image from "next/image";
+
 const Header = () => {
   return (
     <header className="bg-gray-800 text-white">
-      <div className="container mx-auto flex justify-between items-center p-3"> {/* Reduzido o padding */}
-        {/* Logo ou Imagem */}
-        <img
-          src="/img/ynnothivix.jpg" // Caminho para a imagem
-          alt="Logo da empresa"
-          className="h-16 rounded-full" // Imagem pequena com bordas arredondadas
-        />
+      <div className="container mx-auto flex justify-between items-center p-3">
+        <Image
+  src="/img/ynnothivix.jpg"
+  alt="Logo da empresa"
+  width={64}
+  height={64}
+  className="rounded-full"
+/>
 
         {/* Botão de alternância para menu responsivo */}
         <button
