@@ -4,9 +4,9 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center p-3"> {/* Reduzido o padding */}
         {/* Logo ou Imagem */}
         <img
-          src="img/ynnothivix.jpg" // Caminho para a sua imagem
+          src="/img/ynnothivix.jpg" // Caminho para a imagem
           alt="Logo da empresa"
-          className="h-16 rounded-full" // Reduzimos a altura da imagem
+          className="h-16 rounded-full" // Imagem pequena com bordas arredondadas
         />
 
         {/* Botão de alternância para menu responsivo */}
