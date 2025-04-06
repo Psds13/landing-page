@@ -1,11 +1,10 @@
-import Image from "next/image";
 
 const Header = () => {
   return (
     <header className="bg-gray-800 text-white">
       <div className="container mx-auto flex justify-between items-center p-3">
-        <Image
-  src="/img/ynnothivix.jpg"
+        <img
+  src="ynnothivix.jpg"
   alt="Logo da empresa"
   width={64}
   height={64}

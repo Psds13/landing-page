@@ -2,8 +2,9 @@ const Hero = () => {
   return (
     <section id="hero" className="bg-gray-900 text-white h-screen flex items-center justify-center">
       <div className="text-center px-5">
-      <img src="/img/eusinho.jpg" alt="Minha foto" width={400} height={400}
+      <img src="/eusinho.jpg" alt="Minha foto" width={400} height={400}
       className="w-[300px] h-[300px] rounded-full mx-auto mb-4 object-cover" />
+
 
         <h1 className="text-5xl font-bold mb-4">Olá, eu sou Edmilson Oliveira</h1>
         <p className="text-xl mb-6">
