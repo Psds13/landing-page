@@ -16,7 +16,7 @@ const Hero = () => {
           Veja meus projetos
         </a>
         <a
-          href="/Edmilson_Oliveira.pdf"
+          href="docs/Edmilson_Oliveira.pdf"
           download
           className="bg-red-500 text-white px-6 py-3 rounded-full text-lg hover:bg-red-800 transition ml-4"
         >
