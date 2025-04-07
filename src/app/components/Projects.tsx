@@ -7,19 +7,19 @@ interface Project {
   const Projects = () => {
     const projects: Project[] = [
       {
-        title: "Projeto 1",
-        description: "Um aplicativo web desenvolvido com React e Node.js para gestão de tarefas.",
-        link: "https://github.com/seu-usuario/projeto-1",
+        title: "Projeto VisualG",
+        description: "Coleção de exercícios desenvolvidos em VisualG, abordando lógica de programação e estruturas fundamentais como variáveis, condicionais, laços e vetores.",
+        link: "https://github.com/Psds13/ProjetosVisualG",
       },
       {
-        title: "Projeto 2",
-        description: "Landing page responsiva criada com HTML, CSS e Tailwind CSS.",
-        link: "https://github.com/seu-usuario/projeto-2",
+        title: "Projeto Gerenciador de Tarefas",
+        description: "Um projeto em PHP e PostgreSQL, permitindo aos usuários cadastrar-se, autenticar-se e gerenciar suas tarefas (criar, editar e excluir) de forma eficiente.",
+        link: "https://github.com/Psds13/Gerenciador-de-Tarefas",
       },
       {
-        title: "Projeto 3",
-        description: "API RESTful para um sistema de inventário usando Express.js e MongoDB.",
-        link: "https://github.com/seu-usuario/projeto-3",
+        title: "Projeto Meu Carrinho(Programador de Sistemas) - Colaborativo",
+        description: "Atuei como desenvolvedor front-end em um projeto colaborativo para aprimorar o sistema de compras de um supermercado, focando na criação de interfaces intuitivas e responsivas para melhorar a experiência do usuário.",
+        link: "https://github.com/prof-freedson/pi-meu-carrinho",
       },
     ];
   
@@ -48,7 +48,7 @@ interface Project {
           </div>
           <div className="text-center mt-8">
             <a
-              href="/projects"
+              href="https://github.com/Psds13"
               className="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition"
             >
               Ver todos os projetos
