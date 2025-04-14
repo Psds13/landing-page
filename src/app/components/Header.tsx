@@ -4,8 +4,8 @@ const Header = () => {
     <header className="bg-gray-800 text-white">
       <div className="container mx-auto flex justify-between items-center p-3">
         <img
-  src="ynnothivix.jpg"
-  alt="Logo da empresa"
+  src="landing-page.jpg"
+  alt="Landing-page"
   width={64}
   height={64}
   className="rounded-full"
