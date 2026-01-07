@@ -5,6 +5,7 @@ import Skills from "@/app/components/Skills";
 import Projects from "@/app/components/Projects";
 import Contacts from "@/app/components/Contacts";
 import Sobre from "./components/Sobre";
+import Methodology from "./components/Methodology";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Sobre />
       <Skills />
       <Projects />
+      <Methodology />
       <Contacts />
     </main>
   );

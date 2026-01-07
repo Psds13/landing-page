@@ -1,5 +1,5 @@
 const Skills = () => {
-  const softSkills = ["Trabalho em equipe", "Vontade de aprender", "Programação web", "Comunicação"];
+  const softSkills = ["Colaboração em Times Multidisciplinares", "Aprendizado Contínuo e Adaptabilidade", "Comunicação Técnica Assertiva", "Resolução Analítica de Problemas"];
   const hardSkills = ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL", "PostgreSQL", "Next.js", "React", "Angular", "Git"];
   const languages = [
     { name: "Português", level: "Nativo" },

@@ -20,7 +20,7 @@ const Hero = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto">
-          Desenvolvedor Web Full Stack focado em boas práticas, acessibilidade e na criação de experiências digitais de alto impacto.
+          Desenvolvedor Full Stack especializado em arquiteturas escaláveis com React e PHP. Focado em transformar requisitos complexos em soluções digitais de alta performance, priorizando a qualidade de código e a experiência do usuário.
         </p>
 
         <div className="flex flex-wrap justify-center gap-6">

@@ -8,22 +8,22 @@ interface Project {
 const Projects = () => {
   const projects: Project[] = [
     {
-      title: "Gerenciador de Tarefas",
-      description: "Sistema desenvolvido em PHP com MySQL (ou PostgreSQL), contendo cadastro e autenticação de usuários, além de CRUD de tarefas com controle de prioridade e status.",
+      title: "Gerenciador de Tarefas Empresarial",
+      description: "Solução robusta para gestão de fluxo de trabalho. Desenvolvida para resolver o problema de persistência e priorização de demandas em ambientes corporativos, utilizando PHP e arquitetura MVC.",
       link: "https://github.com/Psds13/Gerenciador-de-Tarefas",
-      tech: ["PHP", "MySQL", "Auth", "CRUD"]
+      tech: ["PHP", "PostgreSQL", "MVC", "Auth"]
     },
     {
-      title: "MeuCarrinho",
-      description: "Projeto Full Stack para supermercados focado em interface responsiva e integração com banco de dados. Desenvolvido durante o curso de Programador de Sistemas.",
+      title: "Plataforma MeuCarrinho",
+      description: "Interface e-commerce otimizada para supermercados. O desafio central foi a criação de um carrinhos de compras persistente e sincronizado, focado na experiência de usuário mobile-first.",
       link: "https://github.com/prof-freedson/pi-meu-carrinho",
-      tech: ["HTML", "CSS", "JS", "EJS", "DB"]
+      tech: ["Node.js", "EJS", "PostgreSQL", "CSS3"]
     },
     {
-      title: "Projeto VisualG",
-      description: "Coleção de exercícios abordando lógica de programação e estruturas fundamentais como condicionais, laços e vetores.",
+      title: "Arquitetura de Lógica Avançada",
+      description: "Repositório focado em engenharia de algoritmos e otimização de processamento. Aborda desde estruturas de dados complexas até a resolução de problemas de alta carga lógica.",
       link: "https://github.com/Psds13/ProjetosVisualG",
-      tech: ["Lógica", "Algoritmos", "VisualG"]
+      tech: ["Algoritmos", "Lógica", "Engenharia de Software"]
     },
   ];
 

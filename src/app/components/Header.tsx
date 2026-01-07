@@ -36,6 +36,11 @@ const Header = () => {
               </a>
             </li>
             <li>
+              <a href="#metodologia" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
+                Metodologia
+              </a>
+            </li>
+            <li>
               <a href="#contact" className="text-sm font-medium text-purple-400 hover:text-purple-300 transition-colors">
                 Contato
               </a>
